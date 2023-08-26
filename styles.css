@@ -1,0 +1,37 @@
+:root {
+    
+}
+
+body {
+
+}
+
+/* Navigation */
+
+.navbar {
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    
+}
+
+.nav-logo {
+    height: 4rem;
+    width: auto;
+}
+
+.links-container {
+    
+}
+
+.links-container a {
+    display: block;
+    text-align: center;
+}
