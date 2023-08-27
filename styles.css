@@ -29,10 +29,19 @@ body {
 }
 
 .logo-container {
-    
+    margin-left: 1rem;
 }
 
-.nav-logo {
+.logo-container a {
+    display: flex;
+}
+
+.nav-title {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.logo-img {
     height: 4rem;
     width: auto;
 }
@@ -41,9 +50,19 @@ body {
     
 }
 
+.links-container li {
+    display: inline;
+    list-style: none;
+    padding: 1rem;
+}
+
 .links-container a {
-    display: block;
+    display: inline-block;
     text-align: center;
+}
+
+.toggle-button {
+    display: none;
 }
 
 /* Footer */
