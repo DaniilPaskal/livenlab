@@ -5,6 +5,13 @@
 
 body {
     background-color: var(--background-gray);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll !important;
+    height: 100%;
 }
 
 /* Page content */
@@ -14,6 +21,15 @@ body {
     border-radius: 1rem;
     width: 80%;
     min-width: 50rem;
+    margin: auto;
+}
+
+.page-content h1 {
+    text-align: center;
+}
+
+.page-content p {
+    
 }
 
 /* Navigation */
@@ -68,5 +84,6 @@ body {
 /* Footer */
 
 .footer {
+    width: 100%;
     bottom: 0;
 }
