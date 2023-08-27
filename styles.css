@@ -32,6 +32,25 @@ body {
     
 }
 
+/* Projects section */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-card {
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.project-img {
+    width: 90%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
 /* Navigation */
 
 .navbar {
