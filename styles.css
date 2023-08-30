@@ -91,7 +91,7 @@ body {
 }
 
 .links-container {
-    
+    margin-right: 2rem;
 }
 
 .links-container li {
@@ -107,6 +107,7 @@ body {
 
 .toggle-button {
     display: none;
+    margin-right: 2rem;
 }
 
 /* Footer */
@@ -126,6 +127,10 @@ body {
     }
     
     .links-container {
+        display: none;
+    }
+
+    .hide {
         display: none;
     }
     
