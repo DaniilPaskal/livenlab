@@ -118,6 +118,10 @@ body {
 }
 
 @media (max-width: 45rem) {
+    .hide {
+        display: none;
+    }
+    
     .page-content {
         width: 95%;
     }
@@ -127,11 +131,16 @@ body {
     }
     
     .links-container {
-        display: none;
+        position: fixed;
+        top: 5rem;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        background-color: var(--background-gray);
     }
 
-    .hide {
-        display: none;
+    .links-container a {
+        display: block;
     }
     
     .toggle-button {
