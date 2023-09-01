@@ -14,8 +14,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    overflow-y: scroll !important;
-    height: 100%;
+    overflow-y: scroll;
 }
 
 /* Page content */
@@ -23,8 +22,10 @@ body {
 .page-content {
     background-color: var(--background-white);
     border-radius: 1rem;
+    padding: 1rem;
     width: 80%;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .page-content h1 {
@@ -47,7 +48,7 @@ body {
     text-align: center;
 }
 
-.project-img {
+.project-card img {
     width: 90%;
     border-radius: 1rem;
     margin: auto;
