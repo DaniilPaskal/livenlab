@@ -6,6 +6,11 @@
     --text-black: rgb(0, 0, 0);
 }
 
+html {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background-gray);
