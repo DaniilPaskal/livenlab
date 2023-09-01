@@ -65,6 +65,7 @@ body {
 .navbar {
     position: sticky !important;
     top: 0;
+    background-color: var(--background-gray);
     width: 100%;
     height: 5rem;
     display: flex;
