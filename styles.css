@@ -38,7 +38,7 @@ body {
 }
 
 .page-content p {
-    
+    max-width: 60ch;
 }
 
 /* Projects section */
