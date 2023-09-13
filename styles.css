@@ -72,6 +72,16 @@ body {
     margin-top: 1rem;
 }
 
+.project-page {
+    
+}
+
+.fullsize {
+    background-color: var(--background-white);
+    width: 90%;
+    margin: auto;
+}
+
 /* Navigation */
 
 .navbar {
