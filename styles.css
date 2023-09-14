@@ -39,7 +39,8 @@ body {
 }
 
 .page-content p {
-    max-width: 60ch;
+    max-width: 100ch;
+    margin: auto;
 }
 
 /* About section */
