@@ -63,6 +63,7 @@ body {
 .project-card {
     border-radius: 1rem;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .project-card img {
