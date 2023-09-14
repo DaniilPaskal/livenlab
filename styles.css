@@ -82,8 +82,9 @@ body {
 
 .fullsize {
     background-color: var(--background-white);
-    width: 90%;
+    width: 80% !important;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 /* Blog Section */
@@ -164,6 +165,7 @@ body {
 /* Footer */
 
 .footer {
+    height: 4rem;
     width: 100%;
     bottom: 0;
 }
@@ -174,6 +176,10 @@ body {
     }
     
     .page-content {
+        width: 95%;
+    }
+
+    .full-size {
         width: 95%;
     }
 
