@@ -1,10 +1,3 @@
-const navLinks = document.getElementById('links-container');
-
-function toggleNav() {
-  console.log(navLinks);
-  navLinks.classList.toggle('hide');
-}
-
 function toggleElement(id) {
   const element = document.getElementById(id);
   element.classList.toggle('hide');
