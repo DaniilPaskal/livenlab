@@ -92,6 +92,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.rotated {
+    transform: rotate(180deg);
+}
+
 /* Blog Section */
 
 .blog-container {
