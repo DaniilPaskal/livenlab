@@ -68,12 +68,13 @@ body {
 }
 
 .project-card {
-    width: 90%;
+    height: auto;
     border-radius: 1rem;
+    margin: 0.5rem;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     padding: 1rem;
-    
+    transition: height 1s;
 }
 
 .project-card img {
@@ -187,9 +188,15 @@ body {
     transform: rotate(180deg);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1600px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
     .page-content {
-        width: 95%;
+        width: 90%;
     }
 
     .full-size {
@@ -216,7 +223,7 @@ body {
     .links-container a {
         display: block;
     }
-    
+
     .toggle-button {
         display: block;
     }
