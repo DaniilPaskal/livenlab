@@ -1,3 +1,9 @@
+const navLinks = document.getElementById('links-container');
+
+function toggleNav() {
+  navLinks.classList.toggle('hide-nav');
+}
+
 function toggleElement(id, buttonId) {
   const element = document.getElementById(id);
   element.classList.toggle('hide');
