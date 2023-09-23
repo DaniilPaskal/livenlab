@@ -52,7 +52,23 @@ body {
 
 .member-section {
     display: flex;
-    justify-content: space-between;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
+.member-section img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.member-description {
+    margin-left: 1.5rem;
+}
+
+.member-description h2 {
+    font-size: large;
 }
 
 /* Projects section */
