@@ -63,6 +63,8 @@ body {
 }
 
 .member-description {
+    color: var(--text-black);
+    text-decoration: none;
     margin-left: 1.5rem;
 }
 
@@ -187,6 +189,18 @@ body {
 
 .footer small {
     margin-left: 0.5rem;
+}
+
+/* Links */
+
+a {
+    color: var(--text-black);
+    text-decoration: none;
+}
+
+a h1:hover,
+a h1:active {
+    text-decoration: underline;
 }
 
 /* Misc */
