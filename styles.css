@@ -126,9 +126,23 @@ body {
     margin: auto;
 }
 
+.contact-form label {
+    margin: auto;
+}
+
+.contact-input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
 .contact-button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
     width: 5rem;
     margin: auto;
+    font-size: medium;
 }
 
 /* Navigation */
