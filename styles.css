@@ -117,6 +117,15 @@ body {
     padding: 1rem;
 }
 
+/* Contact Page */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
 /* Navigation */
 
 .navbar {
@@ -271,6 +280,10 @@ a h1:active {
 
     .links-container a {
         display: block;
+    }
+
+    .contact-form {
+        width: 80%;
     }
 
     .toggle-button {
