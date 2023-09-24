@@ -126,6 +126,11 @@ body {
     margin: auto;
 }
 
+.contact-button {
+    width: 5rem;
+    margin: auto;
+}
+
 /* Navigation */
 
 .navbar {
@@ -282,15 +287,17 @@ a h1:active {
         display: block;
     }
 
-    .contact-form {
-        width: 80%;
-    }
-
     .toggle-button {
         display: block;
     }
 
     .hide-nav {
         display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .contact-form {
+        width: 80%;
     }
 }
