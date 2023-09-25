@@ -3,6 +3,7 @@
 :root {
     --background-gray: rgb(214, 214, 214);
     --background-white: rgb(250, 250, 250);
+    --accent-blue: rgb(102, 175, 204);
     --text-black: rgb(0, 0, 0);
 }
 
@@ -139,10 +140,21 @@ body {
 
 .contact-button {
     border-radius: 0.5rem;
+    color: var(--background-white);
+    background-color: var(--accent-blue);
     padding: 0.5rem;
     width: 5rem;
     margin: auto;
     font-size: medium;
+}
+
+.form-alert {
+    border-radius: 1rem;
+}
+
+.form-alert-button {
+    color: var(--background-white) !important;
+    background-color: var(--accent-blue) !important;
 }
 
 /* Navigation */
