@@ -201,6 +201,7 @@ body {
 
 .links-container {
     margin-right: 2rem;
+    overflow: hidden;
 }
 
 .links-container li {
@@ -304,9 +305,11 @@ a h1:active {
         position: fixed;
         top: 5rem;
         height: auto;
+        max-height: 500px;
         width: 100%;
         justify-content: center;
         background-color: var(--background-gray);
+        transition: max-height 1s;
     }
 
     .links-container a {
@@ -318,7 +321,7 @@ a h1:active {
     }
 
     .hide-nav {
-        display: none;
+        max-height: 0px !important;
     }
 }
 
