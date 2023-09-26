@@ -4,6 +4,7 @@
     --background-gray: rgb(200, 210, 215);
     --background-white: rgb(250, 250, 250);
     --accent-blue: rgb(80, 150, 175);
+    --active-blue: rgb(5, 180, 245);
     --text-black: rgb(0, 0, 0);
 
     --width-widescreen: 60rem;
@@ -256,6 +257,19 @@ a {
 a h1:hover,
 a h1:active {
     text-decoration: underline;
+}
+
+.current-page-link {
+    text-decoration: underline !important;
+}
+
+.external-link {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+.external-link:hover {
+    color: var(--active-blue);
 }
 
 /* Misc */
