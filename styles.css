@@ -5,6 +5,10 @@
     --background-white: rgb(250, 250, 250);
     --accent-blue: rgb(80, 150, 175);
     --text-black: rgb(0, 0, 0);
+
+    --width-widescreen: 60rem;
+    --width-midscreen: 80%;
+    --width-smallscreen: 90%;
 }
 
 html {
@@ -30,7 +34,7 @@ body {
     background-color: var(--background-white);
     border-radius: 1rem;
     padding: 1rem;
-    width: 80%;
+    width: var(--width-widescreen);
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -84,7 +88,7 @@ body {
 
 .projects-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .projects-container a {
@@ -130,8 +134,7 @@ body {
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: auto;
+    justify-content: center;
 }
 
 .contact-form label {
@@ -139,8 +142,10 @@ body {
 }
 
 .contact-input {
+    width: 50ch;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    margin: auto;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -269,7 +274,7 @@ a h1:active {
 
 .fullsize {
     background-color: var(--background-white);
-    width: 80% !important;
+    width: var(--width-widescreen);
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -299,19 +304,13 @@ a h1:active {
     transform: rotate(180deg);
 }
 
-@media (max-width: 1600px) {
-    .projects-container {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .page-content {
-        width: 90%;
+        width: var(--width-midscreen);
     }
 
-    .full-size {
-        width: 95%;
+    .fullsize {
+        width: var(--width-midscreen) !important;
     }
 
     .members-container {
@@ -347,7 +346,15 @@ a h1:active {
 }
 
 @media (max-width: 720px) {
-    .contact-form {
-        width: 80%;
+    .page-content {
+        width: var(--width-smallscreen);
+    }
+
+    .fullsize {
+        width: var(--width-smallscreen) !important;
+    }
+
+    .contact-input {
+        width: 90%;
     }
 }
