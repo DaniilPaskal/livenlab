@@ -246,8 +246,16 @@ a h1:active {
 
 /* Misc */
 
+.extra-info {
+    height: auto;
+    max-height: 1000px;
+    overflow: hidden;
+    margin-top: 1rem;
+    transition: max-height 1s;
+}
+
 .hide {
-    display: none;
+    max-height: 0px;
 }
 
 .fullsize {
@@ -272,6 +280,10 @@ a h1:active {
 
 .hoverable div div:hover {
     box-shadow: none;
+}
+
+.chevron-icon {
+    transition: transform 0.5s;
 }
 
 .rotated {
@@ -321,7 +333,7 @@ a h1:active {
     }
 
     .hide-nav {
-        max-height: 0px !important;
+        max-height: 0px;
     }
 }
 
