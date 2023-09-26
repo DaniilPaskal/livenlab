@@ -63,6 +63,10 @@ body {
     width: 5rem;
 }
 
+.member-section h2 {
+    margin-left: 1.5rem;
+}
+
 .member-description {
     color: var(--text-black);
     text-decoration: none;
@@ -197,9 +201,11 @@ body {
 .logo-img {
     height: 4rem;
     width: auto;
+    margin-left: 1rem;
 }
 
 .links-container {
+    font-size: large;
     margin-right: 2rem;
     overflow: hidden;
 }
