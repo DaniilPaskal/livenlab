@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --background-gray: rgb(200, 210, 215);
+    --background-gray: rgb(208, 210, 210);
     --background-white: rgb(250, 250, 250);
     --accent-blue: rgb(80, 150, 175);
     --active-blue: rgb(5, 180, 245);
@@ -125,6 +125,10 @@ body {
     max-width: 70rem;
     border-radius: 0.5rem;
     margin: auto;
+}
+
+.project-card h2 {
+    margin-top: 0.5rem;
 }
 
 .project-card p {
@@ -340,6 +344,10 @@ a h1:active {
     height: auto;
     margin: auto;
     margin-bottom: 2rem;
+}
+
+.fullsize h2 {
+    margin-top: 1.5rem;
 }
 
 .chevron-icon {
