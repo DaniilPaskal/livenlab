@@ -57,6 +57,11 @@ body {
     margin-bottom: 2rem;
 }
 
+.paragraphs-container {
+    text-align: left;
+    text-indent: 2rem;
+}
+
 /* About section */
 
 .members-container {
