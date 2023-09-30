@@ -104,8 +104,8 @@ body {
     margin: auto;
     margin-bottom: 2rem;
     padding: 1rem;
-    width: var(--width-widescreen);
     text-align: center;
+    width: var(--width-widescreen);
 }
 
 .page-content h1 {
@@ -220,8 +220,8 @@ body {
     padding: 1rem;
     padding-top: .1rem;
     padding-bottom: .1rem;
-    width: 90%;
     text-align: left;
+    width: 90%;
 }
 
 .blog-card p {
@@ -385,8 +385,8 @@ a h1:active {
         max-height: 500px;
         position: fixed;
         top: 5rem;
-        width: 100%;
         transition: max-height 1s;
+        width: 100%;
     }
 
     .links-container a {
