@@ -1,152 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>LivenLab</title>
-        <meta charset="utf-8" />
-        <link rel="icon" href="assets/LivenLab Logo.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-            name="description"
-            content="LivenLab. Software company creating unique web and mobile apps for businesses and individuals."
-        />
-        <meta property="og:title" content="LivenLab"/>
-        <meta property="og:image" content="https://livenlab.com/assets/LivenLab%20Logo.png"/>
-        <meta property="og:description" content="Software company creating unique web and mobile apps for businesses and individuals."/>
-        <meta property="og:url" content="https://livenlab.com"/>
-        <meta property="og:image:width" content="3972" />
-        <meta property="og:image:height" content="3972"/>
-        <meta property="og:type" content="website"/> 
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js" defer></script>
-    </head>
+  <head>
+    <title>LivenLab</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/LivenLab Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="LivenLab. Software company creating unique web and mobile apps for businesses and individuals."
+    />
+    <meta property="og:title" content="LivenLab" />
+    <meta
+      property="og:image"
+      content="https://livenlab.com/assets/LivenLab%20Logo.png"
+    />
+    <meta
+      property="og:description"
+      content="Software company creating unique web and mobile apps for businesses and individuals."
+    />
+    <meta property="og:url" content="https://livenlab.com" />
+    <meta property="og:image:width" content="3972" />
+    <meta property="og:image:height" content="3972" />
+    <meta property="og:type" content="website" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-    <body>
-        <nav class="navbar">
-            <div class="logo-container">
-                <a href="index.html">
-                    <img class="logo-img" src="assets/LivenLab Logo.png" alt="LivenLab logo" />
-                    <h1 class="nav-title">LivenLab</h1>
-                </a>
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo-img"
+            src="assets/LivenLab Logo.png"
+            alt="LivenLab logo"
+          />
+          <h1 class="nav-title">LivenLab</h1>
+        </a>
+      </div>
+      <div id="links-container" class="links-container hide-nav">
+        <ul>
+          <li><a href="index.html" class="current-page-link">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i
+        class="fa-solid fa-bars fa-2xl toggle-button"
+        onClick="toggleNav()"
+      ></i>
+    </nav>
+
+    <section class="page-content">
+      <a href="about.html">
+        <h1>Welcome to LivenLab!</h1>
+      </a>
+      <p>
+        LivenLab is a software company focusing on web and mobile applications.
+        We work with our clients to create unique apps tailored to their
+        specifications. Our goal is to help people pursue their goals in
+        business and personal ventures with the power of technology.
+      </p>
+      <h2>Our developers</h2>
+      <div class="members-container hoverable">
+          <div class="member-section">
+            <img src="assets/members/marina-paskal.jpg" alt="Marina Paskal" />
+            <h3>Marina Paskal</h3>
+            <div class="brand-icons">
+              <a
+                href="https://www.linkedin.com/in/marina-paskal/"
+                target="_blank"
+                class="external-link"
+              >
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+              </a>
+              <a
+                href="https://github.com/mpaskal/"
+                target="_blank"
+                class="external-link"
+              >
+                <i class="fa-brands fa-github fa-2xl"></i>
+              </a>
             </div>
-            <div id="links-container" class="links-container hide-nav">
-                <ul>
-                    <li><a href="index.html" class="current-page-link">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars fa-2xl toggle-button" onClick="toggleNav()"></i>
-        </nav>
-        
-        <section class="page-content">
-            <a href="about.html">
-                <h1>Welcome to LivenLab!</h1>
+          </div>
+        </a>
+        <div class="member-section">
+          <img src="assets/members/daniil-paskal.jpg" alt="Daniil Paskal" />
+          <h3>Daniil Paskal</h3>
+          <div class="brand-icons">
+            <a
+              href="https://www.linkedin.com/in/daniil-paskal-169721239/"
+              target="_blank"
+              class="external-link"
+            >
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
             </a>
+            <a
+              href="https://github.com/DaniilPaskal/"
+              target="_blank"
+              class="external-link"
+            >
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <a href="projects.html">
+        <h1>Our projects</h1>
+        <p>Our portfolio thus far. Click on a project to see more!</p>
+      </a>
+      <div class="projects-container hoverable">
+        <a href="projects.html#junglebeauty">
+          <div class="project-card">
+            <img
+              src="assets/projects/junglebeauty.png"
+              alt="Screenshot of the home page of the Junglebeauty website"
+            />
+            <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+            <h2>Junglebeauty</h2>
             <p>
-                LivenLab is a software company focusing on web and mobile applications. We work with our clients to create unique apps tailored to their specifications.
-                Our goal is to help people pursue their goals in business and personal ventures with the power of technology.
+              We recreated and revamped the website of Junglebeauty Bengal
+              Cattery, making it more user-friendly and modern.
             </p>
-            <h2>Our developers</h2>
-            <div class="members-container hoverable">
-                <div class="member-section">
-                    <img src="assets/members/marina-paskal.jpg" alt="Marina Paskal" />
-                    <h3>Marina Paskal</h3>
-                    <div class="brand-icons">
-                        <a href="https://www.linkedin.com/in/marina-paskal/" target="_blank" class="external-link">
-                            <i class="fa-brands fa-linkedin fa-2xl"></i>
-                        </a>
-                        <a href="https://github.com/mpaskal/" target="_blank" class="external-link">
-                            <i class="fa-brands fa-github fa-2xl"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="member-section">
-                    <img src="assets/members/daniil-paskal.jpg" alt="Daniil Paskal" />
-                    <h3>Daniil Paskal</h3>
-                    <div class="brand-icons">
-                        <a href="https://www.linkedin.com/in/daniil-paskal-169721239/" target="_blank" class="external-link">
-                            <i class="fa-brands fa-linkedin fa-2xl"></i>
-                        </a>
-                        <a href="https://github.com/DaniilPaskal/" target="_blank" class="external-link">
-                            <i class="fa-brands fa-github fa-2xl"></i>
-                        </a>
-                    </div>
-                </div>
+          </div>
+        </a>
+        <a href="projects.html#olga-samolevska">
+          <div class="project-card">
+            <img
+              src="assets/projects/olda-samolevska.png"
+              alt="Screenshot of the home page of Olga Samolevska's website"
+            />
+            <figcaption>JS · HTML · CSS</figcaption>
+            <h2>Olga Samolevska's Website</h2>
+            <p>
+              A portfolio site for Olga Samolevska, a Ukrainian filmmaker,
+              writer, and poet.
+            </p>
+          </div>
+        </a>
+        <a href="projects.html#best-memory">
+          <div class="project-card">
+            <img
+              src="assets/projects/best-memory.png"
+              alt="Screenshot of the Best Memory card game"
+            />
+            <figcaption>JS · HTML · CSS</figcaption>
+            <h2>Best Memory</h2>
+            <p>
+              Our Studio Ghibli-themed memory card game, featuring game
+              customization and a music player.
+            </p>
+          </div>
+        </a>
+        <a href="projects.html#junglebeauty-admin">
+          <div class="project-card">
+            <img
+              src="assets/projects/junglebeauty-admin.png"
+              alt="Screenshot of a table of kittens in the Junglebeauty admin app"
+            />
+            <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+            <h2>Junglebeauty Administrator</h2>
+            <p>
+              A tool created alongside the Junglebeauty website, allowing the
+              owners to control the data and content of the site.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="page-content">
+      <a href="blog.html">
+        <h1>Good to know</h1>
+        <p>
+          Our blog of sorts. See below for tips and musings from LivenLab's
+          developers and associates.
+        </p>
+      </a>
+      <div class="blog-container hoverable">
+        <a href="blog.html#entry0">
+          <div class="blog-card">
+            <div class="blog-header">
+              <h2>Nothing here yet...</h2>
+              <small>September 26, 2023</small>
             </div>
-        </section>
+            <p>
+              The first "good to know" is still being written. Please enjoy this
+              placeholder in the meantime.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
 
-        <section class="page-content">
-            <a href="projects.html">
-                <h1>Our projects</h1>
-                <p>Our portfolio thus far. Click on a project to see more!</p>
-            </a>
-            <div class="projects-container hoverable">
-                <a href="projects.html#junglebeauty">
-                    <div class="project-card">
-                        <img src="assets/projects/junglebeauty.png" alt="Screenshot of the home page of the Junglebeauty website" />
-                        <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
-                        <h2>Junglebeauty</h2>
-                        <p>We recreated and revamped the website of Junglebeauty Bengal Cattery, making it more user-friendly and modern.</p>
-                    </div>
-                </a>
-                <a href="projects.html#olga-samolevska">
-                    <div class="project-card">
-                        <img src="assets/projects/olda-samolevska.png" alt="Screenshot of the home page of Olga Samolevska's website" />
-                        <figcaption>JS · HTML · CSS</figcaption>
-                        <h2>Olga Samolevska's Website</h2>
-                        <p>A portfolio site for Olga Samolevska, a Ukrainian filmmaker, writer, and poet.</p>
-                    </div>
-                </a>
-                <a href="projects.html#best-memory">
-                    <div class="project-card">
-                        <img src="assets/projects/best-memory.png" alt="Screenshot of the Best Memory card game" />
-                        <figcaption>JS · HTML · CSS</figcaption>
-                        <h2>Best Memory</h2>
-                        <p>Our Studio Ghibli-themed memory card game, featuring game customization and a music player.</p>
-                    </div>
-                </a>
-                <a href="projects.html#junglebeauty-admin">
-                    <div class="project-card">
-                        <img src="assets/projects/junglebeauty-admin.png" alt="Screenshot of a table of kittens in the Junglebeauty admin app" />
-                        <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
-                        <h2>Junglebeauty Administrator</h2>
-                        <p>A tool created alongside the Junglebeauty website, allowing the owners to control the data and content of the site.</p>
-                    </div>
-                </a>
-            </div>
-        </section>
+    <section class="page-content">
+      <a href="contact.html">
+        <h1>Contact us</h1>
+      </a>
+      <p>
+        Want to get in touch? Please click the link above and use our email
+        form!
+      </p>
+    </section>
 
-        <section class="page-content">
-            <a href="blog.html">
-                <h1>Good to know</h1>
-                <p>Our blog of sorts. See below for tips and musings from LivenLab's developers and associates.</p>
-            </a>
-            <div class="blog-container hoverable">
-                <a href="blog.html#entry0">
-                    <div class="blog-card">
-                        <div class="blog-header">
-                            <h2>Nothing here yet...</h2>
-                            <small>September 26, 2023</small>
-                        </div>
-                        <p>The first "good to know" is still being written. Please enjoy this placeholder in the meantime.</p>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <section class="page-content">
-            <a href="contact.html">
-                <h1>Contact us</h1>
-            </a>
-            <p>Want to get in touch? Please click the link above and use our email form!</p>
-        </section>
-
-        <footer class="footer">
-            <small class="copyright"></small>
-        </footer>
-    </body>
+    <footer class="footer">
+      <small class="copyright"></small>
+    </footer>
+  </body>
 </html>
