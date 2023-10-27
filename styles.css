@@ -2,7 +2,7 @@
 
 :root {
   --background-gray: #d0d2d2;
-  --background-graygreen: rgb(250, 249, 245);
+  --background-graygreen: rgb(249, 250, 247);
   --background-white: rgb(250, 250, 250);
   --accent-blue: rgb(80, 150, 175);
   --active-blue: rgb(5, 180, 245);
@@ -359,9 +359,37 @@ a h1:active {
   margin-top: 1.5rem;
 }
 
+.additional-description {
+  color: var(--accent-blue);
+  display: flex;
+  font-weight: 600;
+  justify-content: end;
+}
+
 .chevron-icon {
-  margin-top: 1.5rem;
+  margin: 1rem 0.5rem;
   transition: transform 0.5s;
+}
+
+.chevron-icon .tooltiptext {
+  background-color: rgb(12, 25, 12);
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  padding: 1rem;
+  visibility: hidden;
+  width: auto;
+
+  text-align: center;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.chevron-icon:hover .tooltiptext {
+  visibility: visible;
 }
 
 .rotated {
