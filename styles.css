@@ -372,6 +372,7 @@ a h1:active {
 }
 
 .chevron-icon {
+  cursor: pointer;
   margin: 1rem 0.5rem;
   transition: transform 0.5s;
 }
