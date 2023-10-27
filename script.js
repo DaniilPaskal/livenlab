@@ -5,7 +5,6 @@ function toggleNav() {
 }
 
 function toggleElement(id, buttonId, readId) {
-  console.log("readId ", readId);
   const description = document.getElementById(id);
   description.classList.toggle("hide");
   const readMore = document.getElementById(readId);
