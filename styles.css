@@ -151,11 +151,12 @@ body {
 
 .member-section h3 {
   font-size: large;
-  margin-left: 2rem;
+  margin-left: 0.8rem;
   vertical-align: middle;
 }
 
 .member-description {
+  justify-content: start;
   color: var(--text-black);
   margin-left: 1.5rem;
   text-decoration: none;
@@ -166,9 +167,11 @@ body {
 }
 
 .brand-icons {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
   color: var(--accent-blue);
-  margin-left: 1rem;
-  margin-top: 1.25rem;
+  margin: auto;
 }
 
 /* Projects section */
@@ -311,6 +314,7 @@ a h1:active {
 
 .external-link {
   color: var(--accent-blue);
+  margin-left: 0.3rem;
   text-decoration: underline;
 }
 
