@@ -168,11 +168,11 @@ body {
 }
 
 .brand-icons {
-  align-content: center;
   display: flex;
-  flex-wrap: wrap;
   color: var(--accent-blue);
   margin: auto;
+  margin-right: 0.5rem;
+  width: fit-content;
 }
 
 /* Projects section */
@@ -415,10 +415,6 @@ a h1:active {
     width: var(--width-midscreen) !important;
   }
 
-  .members-container {
-    grid-template-columns: 1fr;
-  }
-
   .links-container {
     background-color: var(--background-graygreen);
     height: auto;
@@ -446,6 +442,10 @@ a h1:active {
 @media (max-width: 720px) {
   .page-content {
     width: var(--width-smallscreen);
+  }
+
+  .members-container {
+    grid-template-columns: 1fr;
   }
 
   .projects-container {
