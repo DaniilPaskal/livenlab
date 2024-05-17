@@ -54,7 +54,7 @@
             <a href="projects.html" class="current-page-link">Projects</a>
           </li>
           <li><a href="about.html">About us</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="news.html">News</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -64,203 +64,207 @@
       ></i>
     </nav>
 
-    <section class="page-content">
-      <h1>Our projects</h1>
-      <p>Below are LivenLab's projects at or near completion.</p>
-    </section>
+    <main>
+      <section class="page-content">
+        <h1>Our projects</h1>
+        <p>Below are LivenLab's projects at or near completion.</p>
+      </section>
 
-    <section class="project-page">
-      <div id="junglebeauty" class="project-card fullsize">
-        <img
-          src="assets/projects/junglebeauty.png"
-          alt="Screenshot of the home page of the Junglebeauty website"
-        />
-        <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+      <section class="project-page">
+        <div id="junglebeauty" class="project-card fullsize">
+          <img
+            src="assets/projects/junglebeauty.png"
+            alt="Screenshot of the home page of the Junglebeauty website"
+          />
+          <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
 
-        <a
-          href="https://junglebeautybengals.com"
-          target="_blank"
-          class="external-link"
-        >
-          <h2>Junglebeauty</h2>
-        </a>
-        <p>
-          We recreated and revamped the website of Junglebeauty Bengal Cattery,
-          making it more user-friendly and modern.
-        </p>
-        <div
-          class="additional-description"
-          onClick="toggleElement('description-junglebeauty', 'description-junglebeauty-button', 'read-junglebeauty')"
-        >
-          <p id="read-junglebeauty" class="description-button">More...</p>
-          <i
-            id="description-junglebeauty-button"
-            class="fa fa-chevron-down chevron-icon"
-          ></i>
-        </div>
-        <div id="description-junglebeauty" class="extra-info hide">
-          <p>
-            Our starting point was replicating the functionality and general
-            aesthetic of the old PHP site. Prospective customers needed to be
-            able to browse available kittens, see pertinent information from the
-            cattery owners, and have an easy way to contact the cattery. Our
-            greatest improvement was the streamlining of kitten browsing; the
-            new gallery allows filtering by various characteristics while the
-            kitten profiles allow for easy navigation to kittens' parents and
-            siblings. The look and feel of the site was updated significantly to
-            create a more pleasant and user-friendly experience.
-          </p>
-          <p>
-            The website was developed using React, with the UI implemented using
-            React Bootstrap. Data including cat profiles, cat pictures, and news
-            items is loaded from Google's Firestore and Firebase services. A
-            full list of libraries used can be found in the README in the
-            project's GitHub repository.
-          </p>
-          <br />
           <a
-            href="https://github.com/DaniilPaskal/junglebeauty"
+            href="https://junglebeautybengals.com"
             target="_blank"
             class="external-link"
-            >View it on GitHub</a
           >
-        </div>
-      </div>
-
-      <div id="olga-samolevska" class="project-card fullsize">
-        <img
-          src="assets/projects/olda-samolevska.png"
-          alt="Screenshot of the home page of Olga Samolevska's website"
-        />
-        <figcaption>JS · HTML · CSS</figcaption>
-        <a
-          href="https://mpaskal.github.io/olgasamolevska/"
-          target="_blank"
-          class="external-link"
-        >
-          <h2>Olga Samolevska's Website</h2>
-        </a>
-        <p>
-          A portfolio site for Olga Samolevska, a Ukrainian filmmaker, writer,
-          and poet.
-        </p>
-
-        <div
-          class="additional-description"
-          onClick="toggleElement('description-olga', 'description-olga-button', 'read-olga')"
-        >
-          <p id="read-olga" class="description-button">More...</p>
-          <i
-            id="description-olga-button"
-            class="fa fa-chevron-down chevron-icon"
-          ></i>
-        </div>
-
-        <div id="description-olga" class="extra-info hide">
+            <h2>Junglebeauty</h2>
+          </a>
           <p>
-            Olga Samolevska is an accomplished independent creator, and we are
-            working with her to create an easily navigable and visually striking
-            website to house her works, which are currently divided across
-            several platforms. The outline of the site is complete, and we are
-            currently gathering and adding content in preparation for its
-            launch.
+            We recreated and revamped the website of Junglebeauty Bengal
+            Cattery, making it more user-friendly and modern.
           </p>
+          <div
+            class="additional-description"
+            onClick="toggleElement('description-junglebeauty', 'description-junglebeauty-button', 'read-junglebeauty')"
+          >
+            <p id="read-junglebeauty" class="description-button">More...</p>
+            <i
+              id="description-junglebeauty-button"
+              class="fa fa-chevron-down chevron-icon"
+            ></i>
+          </div>
+          <div id="description-junglebeauty" class="extra-info hide">
+            <p>
+              Our starting point was replicating the functionality and general
+              aesthetic of the old PHP site. Prospective customers needed to be
+              able to browse available kittens, see pertinent information from
+              the cattery owners, and have an easy way to contact the cattery.
+              Our greatest improvement was the streamlining of kitten browsing;
+              the new gallery allows filtering by various characteristics while
+              the kitten profiles allow for easy navigation to kittens' parents
+              and siblings. The look and feel of the site was updated
+              significantly to create a more pleasant and user-friendly
+              experience.
+            </p>
+            <p>
+              The website was developed using React, with the UI implemented
+              using React Bootstrap. Data including cat profiles, cat pictures,
+              and news items is loaded from Google's Firestore and Firebase
+              services. A full list of libraries used can be found in the README
+              in the project's GitHub repository.
+            </p>
+            <br />
+            <a
+              href="https://github.com/DaniilPaskal/junglebeauty"
+              target="_blank"
+              class="external-link"
+              >View it on GitHub</a
+            >
+          </div>
+        </div>
+
+        <div id="olga-samolevska" class="project-card fullsize">
+          <img
+            src="assets/projects/olda-samolevska.png"
+            alt="Screenshot of the home page of Olga Samolevska's website"
+          />
+          <figcaption>JS · HTML · CSS</figcaption>
           <a
-            href="https://github.com/mpaskal/olgasamolevska"
+            href="https://mpaskal.github.io/olgasamolevska/"
             target="_blank"
             class="external-link"
-            >View it on GitHub</a
           >
-        </div>
-      </div>
-
-      <div id="best-memory" class="project-card fullsize">
-        <img
-          src="assets/projects/best-memory.png"
-          alt="Screenshot of the Best Memory card game"
-        />
-        <figcaption>JS · HTML · CSS</figcaption>
-        <a
-          href="https://mpaskal.github.io/card-game/"
-          target="_blank"
-          class="external-link"
-        >
-          <h2>Best Memory</h2>
-        </a>
-        <p>
-          Our Studio Ghibli-themed memory card game, featuring game setting
-          customization and a music player.
-        </p>
-
-        <div
-          class="additional-description"
-          onClick="toggleElement('description-memory', 'description-memory-button', 'read-game')"
-        >
-          <p id="read-game" class="description-button">More...</p>
-          <i
-            id="description-memory-button"
-            class="fa fa-chevron-down chevron-icon"
-          ></i>
-        </div>
-
-        <div id="description-memory" class="extra-info hide">
+            <h2>Olga Samolevska's Website</h2>
+          </a>
           <p>
-            What started as a small assignment has grown into a game project
-            that we continue to tinker with and add to. This card matching game
-            uses art and music from various movies by Studio Ghibli, which are
-            loved by our developers. Our goal with this project is simply to
-            create a simple game that's soothing to play, with a secondary aim
-            of providing players with a highly customizable experience.
+            A portfolio site for Olga Samolevska, a Ukrainian filmmaker, writer,
+            and poet.
           </p>
+
+          <div
+            class="additional-description"
+            onClick="toggleElement('description-olga', 'description-olga-button', 'read-olga')"
+          >
+            <p id="read-olga" class="description-button">More...</p>
+            <i
+              id="description-olga-button"
+              class="fa fa-chevron-down chevron-icon"
+            ></i>
+          </div>
+
+          <div id="description-olga" class="extra-info hide">
+            <p>
+              Olga Samolevska is an accomplished independent creator, and we are
+              working with her to create an easily navigable and visually
+              striking website to house her works, which are currently divided
+              across several platforms. The outline of the site is complete, and
+              we are currently gathering and adding content in preparation for
+              its launch.
+            </p>
+            <a
+              href="https://github.com/mpaskal/olgasamolevska"
+              target="_blank"
+              class="external-link"
+              >View it on GitHub</a
+            >
+          </div>
+        </div>
+
+        <div id="best-memory" class="project-card fullsize">
+          <img
+            src="assets/projects/best-memory.png"
+            alt="Screenshot of the Best Memory card game"
+          />
+          <figcaption>JS · HTML · CSS</figcaption>
           <a
-            href="https://github.com/mpaskal/card-game"
+            href="https://mpaskal.github.io/card-game/"
             target="_blank"
             class="external-link"
-            >View it on GitHub</a
           >
-        </div>
-      </div>
-
-      <div id="junglebeauty-admin" class="project-card fullsize">
-        <img
-          src="assets/projects/junglebeauty-admin.png"
-          alt="Screenshot of a table of kittens in the Junglebeauty admin app"
-        />
-        <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
-        <h2>Junglebeauty Administrator</h2>
-        <p>
-          A tool created alongside the Junglebeauty website, allowing the owners
-          to control the data and content of the site.
-        </p>
-
-        <div
-          class="additional-description"
-          onClick="toggleElement('description-jb-admin', 'jb-admin-button', 'read-jb-admin')"
-        >
-          <p id="read-jb-admin" class="description-button">More...</p>
-          <i id="jb-admin-button" class="fa fa-chevron-down chevron-icon"></i>
-        </div>
-
-        <div id="description-jb-admin" class="extra-info hide">
+            <h2>Best Memory</h2>
+          </a>
           <p>
-            This React application connects to the Firestore database and
-            Firebase cloud storage used by the Junglebeauty website. The app
-            provides an interface for viewing and manipulating data which is
-            then served on the site. At present, the owners may add new cats
-            (both parents and kittens) and update existing ones, including
-            setting their photos. Similar functionality exists for writing and
-            editing news items and articles. Authentication, also provided by
-            Firebase, ensures that only the verified owners may use this app.
+            Our Studio Ghibli-themed memory card game, featuring game setting
+            customization and a music player.
           </p>
-          <a
-            href="https://github.com/DaniilPaskal/junglebeauty-administrator"
-            target="_blank"
-            class="external-link"
-            >View it on GitHub</a
+
+          <div
+            class="additional-description"
+            onClick="toggleElement('description-memory', 'description-memory-button', 'read-game')"
           >
+            <p id="read-game" class="description-button">More...</p>
+            <i
+              id="description-memory-button"
+              class="fa fa-chevron-down chevron-icon"
+            ></i>
+          </div>
+
+          <div id="description-memory" class="extra-info hide">
+            <p>
+              What started as a small assignment has grown into a game project
+              that we continue to tinker with and add to. This card matching
+              game uses art and music from various movies by Studio Ghibli,
+              which are loved by our developers. Our goal with this project is
+              simply to create a simple game that's soothing to play, with a
+              secondary aim of providing players with a highly customizable
+              experience.
+            </p>
+            <a
+              href="https://github.com/mpaskal/card-game"
+              target="_blank"
+              class="external-link"
+              >View it on GitHub</a
+            >
+          </div>
         </div>
-      </div>
-    </section>
+
+        <div id="junglebeauty-admin" class="project-card fullsize">
+          <img
+            src="assets/projects/junglebeauty-admin.png"
+            alt="Screenshot of a table of kittens in the Junglebeauty admin app"
+          />
+          <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+          <h2>Junglebeauty Administrator</h2>
+          <p>
+            A tool created alongside the Junglebeauty website, allowing the
+            owners to control the data and content of the site.
+          </p>
+
+          <div
+            class="additional-description"
+            onClick="toggleElement('description-jb-admin', 'jb-admin-button', 'read-jb-admin')"
+          >
+            <p id="read-jb-admin" class="description-button">More...</p>
+            <i id="jb-admin-button" class="fa fa-chevron-down chevron-icon"></i>
+          </div>
+
+          <div id="description-jb-admin" class="extra-info hide">
+            <p>
+              This React application connects to the Firestore database and
+              Firebase cloud storage used by the Junglebeauty website. The app
+              provides an interface for viewing and manipulating data which is
+              then served on the site. At present, the owners may add new cats
+              (both parents and kittens) and update existing ones, including
+              setting their photos. Similar functionality exists for writing and
+              editing news items and articles. Authentication, also provided by
+              Firebase, ensures that only the verified owners may use this app.
+            </p>
+            <a
+              href="https://github.com/DaniilPaskal/junglebeauty-administrator"
+              target="_blank"
+              class="external-link"
+              >View it on GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <small class="copyright"></small>

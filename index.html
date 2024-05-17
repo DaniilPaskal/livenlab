@@ -52,7 +52,7 @@
           <li><a href="index.html" class="current-page-link">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="about.html">About us</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="news.html">News</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -61,32 +61,60 @@
         onClick="toggleNav()"
       ></i>
     </nav>
-
-    <section class="page-content">
-      <a href="about.html">
-        <h1>Welcome to LivenLab!</h1>
-      </a>
-      <p>
-        LivenLab is a software company focusing on web and mobile applications.
-        We work with our clients to create unique apps tailored to their
-        specifications. Our goal is to help people pursue their goals in
-        business and personal ventures with the power of technology.
-      </p>
-      <h2>Our developers</h2>
-      <div class="members-container">
+    
+    <main>
+      <section class="page-content">
+        <a href="about.html">
+          <h1>Welcome to LivenLab!</h1>
+        </a>
+        <p>
+          LivenLab is a software company focusing on web and mobile applications.
+          We work with our clients to create unique apps tailored to their
+          specifications. Our goal is to help people pursue their goals in
+          business and personal ventures with the power of technology.
+        </p>
+        <h2>Our team</h2>
+        <div class="members-container">
+            <div class="member-section">
+              <img src="assets/members/marina-paskal.jpg" alt="Marina Paskal" />
+              <div class="member">
+                <h3 class="member-name">Marina Paskal</h3>
+                <div class="member-title">Co-founder, Software Developer</div>
+              </div>
+              <div class="brand-icons">
+                <a
+                  href="https://www.linkedin.com/in/marina-paskal/"
+                  target="_blank"
+                  class="external-link"
+                >
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a
+                  href="https://github.com/mpaskal/"
+                  target="_blank"
+                  class="external-link"
+                >
+                  <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </a>
           <div class="member-section">
-            <img src="assets/members/marina-paskal.jpg" alt="Marina Paskal" />
-            <h3 class="member-name">Marina Paskal</h3>
+            <img src="assets/members/daniil-paskal.jpg" alt="Daniil Paskal" />
+            <div class="member">
+              <h3 class="member-name">Daniil Paskal</h3>
+              <div class="member-title">Co-founder, Software Developer</div>
+            </div>
             <div class="brand-icons">
               <a
-                href="https://www.linkedin.com/in/marina-paskal/"
+                href="https://www.linkedin.com/in/daniil-paskal-169721239/"
                 target="_blank"
                 class="external-link"
               >
                 <i class="fa-brands fa-linkedin fa-2xl"></i>
               </a>
               <a
-                href="https://github.com/mpaskal/"
+                href="https://github.com/DaniilPaskal/"
                 target="_blank"
                 class="external-link"
               >
@@ -94,128 +122,130 @@
               </a>
             </div>
           </div>
-        </a>
-        <div class="member-section">
-          <img src="assets/members/daniil-paskal.jpg" alt="Daniil Paskal" />
-          <h3 class="member-name">Daniil Paskal</h3>
-          <div class="brand-icons">
-            <a
-              href="https://www.linkedin.com/in/daniil-paskal-169721239/"
-              target="_blank"
-              class="external-link"
-            >
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
-            </a>
-            <a
-              href="https://github.com/DaniilPaskal/"
-              target="_blank"
-              class="external-link"
-            >
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="page-content">
-      <a href="projects.html">
-        <h1>Our projects</h1>
-        <p>Our portfolio thus far. Click on a project to see more!</p>
-      </a>
-      <div class="projects-container hoverable">
-        <a href="projects.html#junglebeauty">
-          <div class="project-card">
-            <img
-              src="assets/projects/junglebeauty.png"
-              alt="Screenshot of the home page of the Junglebeauty website"
-            />
-            <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
-            <h2>Junglebeauty</h2>
-            <p>
-              We recreated and revamped the website of Junglebeauty Bengal
-              Cattery, making it more user-friendly and modern.
-            </p>
-          </div>
+      <section class="page-content">
+        <a href="projects.html">
+          <h2>Projects</h2>
+          <p>Click on a project to see more</p>
         </a>
-        <a href="projects.html#olga-samolevska">
-          <div class="project-card">
-            <img
-              src="assets/projects/olda-samolevska.png"
-              alt="Screenshot of the home page of Olga Samolevska's website"
-            />
-            <figcaption>JS · HTML · CSS</figcaption>
-            <h2>Olga Samolevska's Website</h2>
-            <p>
-              A portfolio site for Olga Samolevska, a Ukrainian filmmaker,
-              writer, and poet.
-            </p>
-          </div>
-        </a>
-        <a href="projects.html#best-memory">
-          <div class="project-card">
-            <img
-              src="assets/projects/best-memory.png"
-              alt="Screenshot of the Best Memory card game"
-            />
-            <figcaption>JS · HTML · CSS</figcaption>
-            <h2>Best Memory</h2>
-            <p>
-              Our Studio Ghibli-themed memory card game, featuring game
-              customization and a music player.
-            </p>
-          </div>
-        </a>
-        <a href="projects.html#junglebeauty-admin">
-          <div class="project-card">
-            <img
-              src="assets/projects/junglebeauty-admin.png"
-              alt="Screenshot of a table of kittens in the Junglebeauty admin app"
-            />
-            <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
-            <h2>Junglebeauty Administrator</h2>
-            <p>
-              A tool created alongside the Junglebeauty website, allowing the
-              owners to control the data and content of the site.
-            </p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section class="page-content">
-      <a href="blog.html">
-        <h1>Good to know</h1>
-        <p>
-          Our blog of sorts. See below for tips and musings from LivenLab's
-          developers and associates.
-        </p>
-      </a>
-      <div class="blog-container hoverable">
-        <a href="blog.html#entry0">
-          <div class="blog-card">
-            <div class="blog-header">
-              <h2>Nothing here yet...</h2>
-              <small>September 26, 2023</small>
+        <div class="projects-container hoverable">
+          <a href="projects.html#junglebeauty">
+            <div class="project-card">
+              <img
+                src="assets/projects/junglebeauty.png"
+                alt="Screenshot of the home page of the Junglebeauty website"
+              />
+              <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+              <h2>Junglebeauty</h2>
+              <p>
+                We recreated and revamped the website of Junglebeauty Bengal
+                Cattery, making it more user-friendly and modern.
+              </p>
             </div>
-            <p>
-              The first "good to know" is still being written. Please enjoy this
-              placeholder in the meantime.
-            </p>
-          </div>
-        </a>
-      </div>
-    </section>
+          </a>
+          <a href="projects.html#olga-samolevska">
+            <div class="project-card">
+              <img
+                src="assets/projects/olda-samolevska.png"
+                alt="Screenshot of the home page of Olga Samolevska's website"
+              />
+              <figcaption>JS · HTML · CSS</figcaption>
+              <h2>Olga Samolevska's Website</h2>
+              <p>
+                A portfolio site for Olga Samolevska, a Ukrainian filmmaker,
+                writer, and poet.
+              </p>
+            </div>
+          </a>
+          <a href="projects.html#best-memory">
+            <div class="project-card">
+              <img
+                src="assets/projects/best-memory.png"
+                alt="Screenshot of the Best Memory card game"
+              />
+              <figcaption>JS · HTML · CSS</figcaption>
+              <h2>Best Memory</h2>
+              <p>
+                Our Studio Ghibli-themed memory card game, featuring game
+                customization and a music player.
+              </p>
+            </div>
+          </a>
+          <a href="projects.html#junglebeauty-admin">
+            <div class="project-card">
+              <img
+                src="assets/projects/junglebeauty-admin.png"
+                alt="Screenshot of a table of kittens in the Junglebeauty admin app"
+              />
+              <figcaption>React · Firebase · JS · HTML · CSS</figcaption>
+              <h2>Junglebeauty Administrator</h2>
+              <p>
+                A tool created alongside the Junglebeauty website, allowing the
+                owners to control the data and content of the site.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
 
-    <section class="page-content">
-      <a href="contact.html">
-        <h1>Contact us</h1>
-      </a>
-      <p>
-        Want to get in touch? Please click the link above and use our email
-        form!
-      </p>
-    </section>
+      <section class="page-content">
+        <a href="news.html">
+          <h2>News</h2>
+        </a>
+        <div class="news-container hoverable">
+          <a href="news.html#may152024">
+            <div class="news-card">
+              <div class="news-header">
+                <h3>May 15, 2024</h3>
+                <p>
+                  We took part in <a href="https://osdpuxhackathon.com/" target="_blank"><span class="news-link">OSDP Hackathon.</span></a>
+                </p>
+              </div>
+              <div id="news-osdpcertificates">
+                <img src="assets/members/marinaOSDPcertificate.jpg" alt="OSDP Hackathon participation certificate of Marina Paskal">
+                <img src="assets/members/daniilOSDPcertificate.jpg" alt="OSDP Hackathon participation certificate of Daniil Paskal">  
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="page-content blog">
+        <a href="blog.html">
+          <h2>Good to know</h2>
+          <p>
+            Our blog of sorts. See below for tips and musings from LivenLab's
+            developers and associates.
+          </p>
+        </a>
+        <div class="blog-container hoverable">
+          <a href="blog.html#entry0">
+            <div class="blog-card">
+              <div class="blog-header">
+                <h2>Nothing here yet...</h2>
+                <small>September 26, 2023</small>
+              </div>
+              <p>
+                The first "good to know" is still being written. Please enjoy this
+                placeholder in the meantime.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <a href="contact.html">
+          <h2>Contact us</h2>
+        </a>
+        <p>
+          Want to get in touch? Please click the link above and use our email
+          form
+        </p>
+      </section>
+    </main>
 
     <footer class="footer">
       <small class="copyright"></small>
