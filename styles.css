@@ -23,7 +23,7 @@ body {
   background-color: var(--background-graygreen);
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
   margin: auto;
   min-height: 100vh;
   overflow: auto;
@@ -40,7 +40,7 @@ body {
   background-color: var(--background-graygreen);
   display: flex;
   justify-content: space-between;
-  max-height: 5rem;
+  max-height: 4.8em;
   position: sticky !important;
   top: 0;
   width: 100%;
@@ -57,22 +57,25 @@ body {
 }
 
 .logo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   margin-left: 1rem;
 }
 
 .logo-container a {
+  align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .nav-title {
-  padding-top: 0.5rem;
-  padding-left: 1rem;
+  margin-left: 0.6em;
 }
 
 .logo-img {
-  height: 4rem;
-  margin-left: 1rem;
-  padding-top: 0.25rem;
+  height: 2.8em;
+  margin: 0 auto 0.8em auto;
   width: auto;
 }
 
@@ -111,7 +114,7 @@ main {
   background-color: var(--background-white);
   border-radius: 1rem;
   justify-content: center;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   padding: 1rem;
   text-align: center;
   width: var(--width-widescreen);
@@ -128,7 +131,6 @@ main {
 
 .page-content p {
   margin: auto;
-  margin-bottom: 2rem;
   width: 80%;
 }
 
@@ -254,10 +256,7 @@ main {
 .news-card {
   border-radius: 1rem;
   margin: auto;
-  margin-bottom: 0.5rem;
-  padding: 1rem;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding: 0.1rem 1rem;
   text-align: left;
   width: 90%;
 }
@@ -300,10 +299,7 @@ main {
 .blog-card {
   border-radius: 1rem;
   margin: auto;
-  margin-bottom: 0.5rem;
-  padding: 1rem;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding: 0.1rem 1rem;
   text-align: left;
   width: 90%;
 }
@@ -322,6 +318,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 1rem auto;
 }
 
 .contact-form label {
@@ -330,9 +327,7 @@ main {
 
 .contact-input {
   border-radius: 0.5rem;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem auto 1rem;
   padding: 0.5rem;
   width: 50ch;
 }
