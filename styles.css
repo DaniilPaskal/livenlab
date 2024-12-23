@@ -437,6 +437,11 @@ a h1:active {
   text-decoration: underline;
 }
 
+a h2:hover,
+a h2:active {
+  text-decoration: underline;
+}
+
 .current-page-link {
   text-decoration: underline !important;
 }
