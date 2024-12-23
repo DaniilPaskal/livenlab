@@ -141,7 +141,7 @@ main {
 
 /* Modals */
 .modal {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   cursor: default;
   position: fixed;
   left: 0;
@@ -160,7 +160,7 @@ main {
   margin: 5rem auto;
   padding: 0 1rem 1rem;
   width: 80%;
-  max-width: 50rem; 
+  max-width: 50rem;
 }
 
 .modal img {
@@ -181,6 +181,11 @@ main {
 }
 
 /* About section */
+
+.members-section {
+  display: none;
+}
+
 .member {
   align-items: center;
   justify-content: center;
@@ -204,7 +209,7 @@ main {
   justify-content: center;
 }
 
-.member-section {
+.members {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0 5px 10px;
   display: flex;
@@ -213,12 +218,12 @@ main {
   padding: 0.5rem;
 }
 
-.member-section img {
+.members img {
   border-radius: 50%;
   height: 100%;
 }
 
-.member-section h3 {
+.members h3 {
   font-size: large;
   margin-left: 0.8rem;
   vertical-align: middle;
@@ -285,10 +290,6 @@ main {
 }
 
 /* News Section */
-
-.news {
-  display: none;
-}
 
 .news-container {
   display: flex;
